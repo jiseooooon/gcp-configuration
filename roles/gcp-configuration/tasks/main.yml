@@ -7,7 +7,7 @@
   debug:
     msg: "hostName is {{ host_info.stdout }}"
     
-- name: Enable nginx for amazon linux 2
+- name: apt package update
   shell: "apt-get update"
   become: yes    
 
